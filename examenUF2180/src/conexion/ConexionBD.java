@@ -11,6 +11,14 @@ import java.sql.SQLException;
  * @author David
  *
  */
+
+/* 
+ 	create user empresaUser identified by "1234";
+
+	grant all privileges on empresa.* to empresaUser;
+	flush privileges; 
+ * */
+
 public class ConexionBD {
 
 	private static final String database = "empresa";
